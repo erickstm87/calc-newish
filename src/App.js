@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import './main.css';
 import {
     Input
 } from './components/'
 
-const App = () => {
-  return (
+class App extends Component {
+  render() {
+    return(
       <div>
-	  <p>React here!</p>
+        <Input/>
       </div>
-  );
-};
+    )
+  }
+}
 
 export default App;
-ReactDOM.render(<App />, document.getElementById('app'));
