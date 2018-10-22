@@ -4,7 +4,7 @@ export default class Input extends Component {
     render(){
         return(
             <div>
-                <h1>hello</h1>
+                <h1>goodbye</h1>
             </div>
         )
     }
